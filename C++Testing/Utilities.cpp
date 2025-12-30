@@ -3,12 +3,14 @@
 #include <stdexcept>   // for std::invalid_argument, std::out_of_range
 #include <iostream>
 
-int Utilities::stringToInt(const std::string& s) const {
-    try {
+int Utilities::stringToInt(const std::string& s) const 
+{
+    try 
+    {
         return std::stoi(s);
     }
-    catch (const std::invalid_argument&) {
-        // You could choose a sentinel value or re‑throw
+    catch (const std::invalid_argument&) 
+    {
         throw std::invalid_argument("Utilities::stringToInt – not a number\n");
     }
     catch (const std::out_of_range&) {
@@ -16,16 +18,20 @@ int Utilities::stringToInt(const std::string& s) const {
     }
 }
 
-int Utilities::CheckComputersGuess(const int answer, const int Computer) const {
-    if (answer < Computer) {
+int Utilities::CheckComputersGuess(const int answer, const int Computer) const 
+{
+    if (answer < Computer) 
+    {
         std::cout << "Too small\n";
         return 2;
     }
-    else if (answer > Computer) {
+    else if (answer > Computer) 
+    {
         std::cout << "Too Large\n";
         return 1;
     }
-    else {
+    else 
+    {
         std::cout << "Correct!!!\n";
         return 0;
     }

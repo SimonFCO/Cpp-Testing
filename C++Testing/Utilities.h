@@ -2,7 +2,8 @@
 #ifndef UTILITIES_H
 #define UTILITIES_H
 
-class Utilities {
+class Utilities 
+{
 public:
     // Constructor (optional)
     Utilities() = default;
