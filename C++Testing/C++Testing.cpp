@@ -5,6 +5,7 @@
 #include "Utilities.h"
 
 int main() {
+    srand(time(0));
     int ComputerGuess = rand() % 10;
     std::string answer;
     Utilities utils;                     // create an instance
