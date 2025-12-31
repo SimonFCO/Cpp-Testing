@@ -38,3 +38,7 @@ int Utilities::CheckComputersGuess(const int answer, const int Computer) const
     std::cout << "Something has gone terribly wrong\n";
     return 3;
 }
+
+static void NumberGuesser(){
+
+}
