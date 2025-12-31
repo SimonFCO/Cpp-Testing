@@ -4,15 +4,12 @@
 
 class Utilities 
 {
-public:
-    // Constructor (optional)
-    Utilities() = default;
+    public:
+        // Constructor
+        Utilities() = default;
 
-    // Example member function: converts a string to int safely
-    int stringToInt(const std::string& s) const;
-    int CheckComputersGuess(const int answer, const int Computer) const;
-
-    // Add any other functions you need here
+        int stringToInt(const std::string& s) const;
+        int CheckComputersGuess(const int answer, const int Computer) const;
 };
 
 #endif // UTILITIES_H
