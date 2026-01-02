@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="C++Testing.cpp" />
     <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Galaxy.cpp" />
     <ClCompile Include="NumberGuesser.cpp" />
     <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Galaxy.h" />
     <ClInclude Include="NumberGuesser.h" />
     <ClInclude Include="Utilities.h" />
   </ItemGroup>
